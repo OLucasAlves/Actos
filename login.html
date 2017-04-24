@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>Login</title>
+
+    
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/estilo.css" rel="stylesheet">
+
+    
+  </head>
+  <body class="body-login">
+   
+     <!-- Login --> 
+        
+      <div id="main-container" class="container"><!-- .container -->
+        <div class="row"> <!-- .row 1 -->
+            <div class="col-sm-3"></div>
+            <div class="col-sm-6">
+              <div class="div-login">
+                        
+                <div id="panel-heading" class="panel-heading  text-center">
+                    <img class="menu" src="imgs/logo.png" class="img-responsive" alt="Actos" style=""/>
+                </div>
+                  
+                <div class="message-login text-center">
+				    Faça login para continuar.
+			    </div>
+              
+                <div class="panel-body">
+                      
+                    <form class="form-horizontal" method="post" action="http://www.condominio24horas.com.br/sistema/loginvalidar.asp">
+                        
+                        <div class="form-group">
+                            <div class="col-md-3"></div>
+                            <!-- <label for="login-email" class="control-label  col-sm-3">Usuário</label> --> 
+                            <div class="col-sm-7">
+                                <input class="form-control " type="" id="NOMUSU" name="NOMUSU" placeholder="Digite seu Usuário" required="true" />
+                            </div>
+                            <span class="glyphicon glyphicon-user"></span>
+                        </div>
+                        
+                        
+                        <div class="form-group">
+                            <div class="col-md-3"></div>
+                            <!-- <label for="login-email" class="control-label col-sm-3">Senha</label> --> 
+                            <div class="col-sm-7">
+                                <input class="form-control" type="password" id="senha" name="senha" placeholder="Digite sua Senha" required="true" />  
+                            </div>
+                            <span class="glyphicon  glyphicon-lock"></span>
+                        </div>
+                        
+                        <div class="form-group text-center">
+                            <div class="col-sm-3"></div>
+                            <div class="col-sm-7">
+                                <input id="ACESSAR" type="submit" class="btn btn-primary" value="Acessar"/>
+                            </div>
+                        </div>
+                        
+                    </form>
+                    
+                </div>
+              </div>
+          
+              
+                
+                
+            </div>
+            <div class="col-sm-3"></div>
+        </div>
+      </div>
+      
+      
+     <!-- //Login --> 
+       
+     
+        
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
+
+

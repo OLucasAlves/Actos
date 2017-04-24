@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    
+
+    
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/estilo.css" rel="stylesheet">
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="http://code.jquery.com/jquery-latest.js" type="text/javascript"></script>  
+    <script>
+        jQuery(document).ready(function($){
+            $(".scroll").click(function(event){
+            event.preventDefault();
+            $("html,body").animate({scrollTop:$(this.hash).offset().top},800);
+        });                                     
+       });
+          
+    </script>  
+    <title>Actos</title>
+  </head>
+  <body data-spy="scroll" data-target=".menu-navegacao" data-offset="80">
+      
+        <!-- Menu da aplicação -->
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" date-toggle="collapse" data-target="#menu-navegacao">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#page-top"> <img class="menu" src="imgs/logo.png" class="img-responsive" alt="Actos" style=""/> </a>
+                </div>
+                
+                <div class="collapse navbar-collapse menu-navegacao" id="menu-navegacao">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#page-top"></a></li>
+                        
+                        <li>
+                            <a  class="menu scroll" href="#slides">Home</a>
+                        </li>
+                        
+                        <li>
+                            <a  class="menu scroll" href="#quemsomos">Quem Somos</a>
+                        </li>
+                        
+                        <li>
+                            <a  class="menu scroll" href="#servicos">Serviços</a>
+                        </li>
+                        
+                        <li>
+                            <a  class="menu scroll" href="#portfolio">Noticias</a>
+                        </li>
+                        
+                        <li>
+                            <a  class="menu scroll" href="#localizacao">Localização</a>
+                        </li>
+                        
+                        <li>
+                            <a  class="menu scroll" href="#trabconosco">Trabalhe Conosco</a>
+                        </li>
+                    </ul>
+                </div>
+                
+            </div>    
+        </nav>
+        <!-- // Menu da aplicação -->
+      
+      <!-- Slider da aplicação -->
+      <section id="slides" >
+        <div class="divslider">
+            <div class="container">
+                <div class="col-xs-12">
+                    <div id="sliderprincipal" class="carousel slide" data-ride="carousel" >
+                
+                    <ol class="carousel-indicators"> 
+                        <li data-target="#sliderprincipal" data-slide-to="0" class="active"></li>
+                        <li data-target="#sliderprincipal" data-slide-to="1"></li>
+                        <li data-target="#sliderprincipal" data-slide-to="2"></li>
+                    </ol>
+                
+                        <div class="carousel-inner" role="listbox" align="center" height="50" >
+			                 <div class="item active" height="500">
+				                <img src="imgs/slides/gestao-online.png" alt="gestao online" style="height:500px" width="1110px"> 
+			                 </div>
+			
+			                 <div class="item">
+				                <img src="imgs/slides/administracao.png" alt="Administração de Condominios" style="height:500px" width="1100px"> 
+			                 </div>	
+			
+			                 <div class="item">
+				                <img src="imgs/slides/compromisso.jpg" alt="Comprimisso com o trabalho" style="height:500px" width="1100px"> 
+			                 </div>	
+                        </div>
+                        
+                        <a class="left carousel-control" href="#sliderprincipal"  role="button" data-slide="prev">
+                            <span class="glyphicon glyphicon-chevron-left"></span>
+                            <span class="sr-only" >Anterior</span>
+                        </a>
+                        
+                        <a class="right carousel-control" href="#sliderprincipal" role="button" data-slide="next">
+                            <span class="glyphicon glyphicon-chevron-right" ></span>
+                            <span class="sr-only" >Proximo</span>
+                        </a>
+                        
+                    </div>
+                </div>    
+            </div>
+                      
+                <div class="cols-xs-12 text-center grow">
+                    <a href="login.html" class="btn btn-primary  slide_btn_portal">Clique aqui para Acessar o portal </a>
+                </div>
+        </div>
+      </section>
+        <!-- // Slider da aplicação -->
+      
+      
+        <!-- Quem somos -->
+        <section id="quemsomos" >
+            <div class="container" class="scroll">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="page-header">
+                                <h1>Quem Somos</h1>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-sm-4 ">
+                                <div>
+                                    <h4>Missão</h4>
+                                    <div>
+                                        <p>Prestar Serviços para o segmento de administração condominial, com qualidade, utilizando ferramentas tecnológicas, visando a maior eficiência e celeridade na prestação do serviço.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                             <div class="col-sm-4 ">
+                                <div >
+                                    <h4>Visão</h4>
+                                    <div><p>Ser a empresa de destaque no segmento de administração condominial, oferecendo serviços de qualidade, respaldado pela ética profissional e eficiência, garantindo ao nosso cliente, serviço com a máxima excelência.</p></div>
+                                </div>
+                             </div>
+
+                             <div class="col-sm-4 ">
+                                <div >
+                                    <h4>Valores</h4>
+                                    <div>
+                                        <ol>
+                                            <li>INTEGRAL SATISFAÇÃO DO CLIENTE;</li>
+                                            <li>VALORIZAÇÃO E RESPEITO AO COLABORADORES;</li>
+                                            <li>RESPONSABILIDADE;</li>
+                                            <li>FLEXIBILIDADE;</li>
+
+                                        </ol>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br><br><br>
+                 <div class="row">
+                    <div class="col-xs-12 text-center">
+                        <a href="quem-somos.html" class="btn btn-default btn-lg">Clique aqui para conhecer <br> melhor a empresa</a>
+                    </div>
+                </div>
+                
+                
+            </div>
+        </section> 
+        <!-- // Quem somos -->
+      
+        <!-- Serviços -->
+        <section id="servicos" class="scroll">
+            <div class="container" class="scroll">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="page-header">
+                            <h1>Serviços <small>Conheça o que fazemos</small></h1>
+                    </div>
+                    
+                    </div>
+                </div>
+                
+                <div class="row">
+                   <div class=" col-sm-4 col-md-4 servicos_item">
+                        <div><img src="imgs/zelador.jpg" class="img-responsive" style="height:150px"></div> 
+                           <h4>Zeladoria</h4>
+                           <p>Profissionais uniformizados, passagens, alimentação;
+                               Carga horária 44 (quarenta e quatro) horas semanais;
+                            </p>
+                   </div> 
+                    
+                   <div class=" col-sm-4 col-md-4 servicos_item">
+                      <div><img src="imgs/seguranca.png" class="img-responsive  "style="height:150px"></div>
+                         <h4>Portaria/Ronda Desarmada </h4>
+                         <p>Carga Horária 12 x 36; Horário das 19:00hs. às 07:00hs. e 07:00hs às 19:00hs respectivamente; Profissionais         uniformizados, passagem, alimentação;
+                         </p>    
+                   </div> 
+                    
+                   <div class=" col-sm-4 col-md-4 servicos_item">
+                      <div><img src="imgs/logo.png" class="img-responsive " style="height:150px" >   </div>  
+                        <h4>Gestão de Condominios</h4>
+                        <p>Cobranças Extrajudicial e Judicial; Demonstrativos Financeiros; Previsões Orçamentárias; Assessoria                  Jurídica;Contábil; Departamento Pessoal;
+                        </p>
+                   </div> 
+                </div>
+                
+                <div class="row">
+                    <div class="col-xs-12 text-center">
+                        <a href="servicos.html" class="btn btn-default btn-lg servicos_btn_todosservicos">Clique aqui para <br> ver todos os nossos serviços</a>
+                    </div>
+                </div>
+                
+            </div>
+        </section>  
+        <!-- //Serviços -->
+      
+        <!-- Portfolios -->
+        <section id="portfolio" class="div_colorida">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="page-header">
+                            <h1 class="cor-fonte">Portfólio <small>Conheça nossos trabalhos</small></h1>
+                        </div>
+                    </div>    
+                </div>
+                
+                <div class="row portifolio_row">
+                    <div class="col-sm-4 ">
+                        <div class="portifolio_item">
+                            <div><img src="imgs/600x400.jpg" class="img-responsive"></div>
+                            <h4>Nome do cliente</h4>
+                        </div>
+                    </div>
+                        
+                    <div class="col-sm-4 ">
+                        <div class="portifolio_item">
+                            <div><img src="imgs/600x400.jpg" class="img-responsive"></div>
+                            <h4>Nome do cliente</h4>
+                        </div>
+                    </div>
+                        
+                    <div class="col-sm-4 ">
+                        <div class="portifolio_item">
+                            <div><img src="imgs/600x400.jpg" class="img-responsive"></div>
+                            <h4>Nome do cliente</h4>
+                        </div>
+                        
+                    </div>
+                </div>
+                
+                <div class="row portifolio_row">
+                    <div class="col-sm-4 ">
+                        <div class="portifolio_item">
+                            <div><img src="imgs/600x400.jpg" class="img-responsive grayscale"></div>
+                            <h4>Nome do cliente</h4>
+                        </div>
+                    </div>
+                        
+                    <div class="col-sm-4 ">
+                        <div class="portifolio_item">
+                            <div><img src="imgs/600x400.jpg" class="img-responsive grayscale"></div>
+                            <h4>Nome do cliente</h4>
+                        </div>
+                    </div>
+                        
+                    <div class="col-sm-4 ">
+                        <div class="portifolio_item">
+                            <div><img src="imgs/600x400.jpg" class="img-responsive grayscale"></div>
+                            <h4>Nome do cliente</h4>
+                        </div>
+                    </div>
+                    
+                </div>
+                
+                <div class="row">
+                    <div class="col-xs-12 text-center">
+                        <a href="portifolio.html" class="btn btn-default btn-lg">Clique aqui para conhecer <br> todos os nossos clientes</a>
+                    </div>
+                </div>
+                
+            </div>
+        </section>  
+        <!-- // Portfolios -->
+      
+      
+        <!-- Localização -->
+        <section id="localizacao" class="div_colorida">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="page-header">
+                            <h1>Localização <small>Veja onde estamos</small></h1>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="row">
+                    <div class="col-xs-12">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3981.053279157118!2d-38.49363185023631!3d-3.79854774458192!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7c74f793e7b6b25%3A0x957fef821603f610!2sR.+Botelho+Magalh%C3%A3es%2C+280+-+Cambeba%2C+Fortaleza+-+CE%2C+60822-330!5e0!3m2!1spt-BR!2sbr!4v1490829268379" width="100%" height="520" frameborder="0" style="border:0" allowfullscreen></iframe>
+                    </div>
+                </div>
+            
+                </div>
+        </section> 
+        <!-- // Localização -->
+      
+        <!-- Trabalhe Conosco -->
+        <section id="trabconosco">
+            <div class="container">
+				<div class="row">
+					<div class="col-xs-12">
+						<div class="page-header">
+							<h1>Trabalhe Conosco <small>Fale conosco agora mesmo!</small></h1>
+						</div>
+					</div>
+				</div>
+				<div class="row contato ">
+					<div class="col-xs-12">
+						<p class="bg-success aviso">Preencha o formulário abaixo para entrar em contato conosco</p>
+					</div>
+				</div>
+				<div class="row contato">
+					<div class="col-xs-12">
+						<form name="frmContato" id="formContato" method="post"  action="http://grupoorganiza.com.br/cgi-sys/formmail.pl">
+							<div class="row">
+								<div class="col-md-6">
+									<div class="form-group">
+										<input type="text" name="nome" id="nome"class="form-control input-lg" placeholder="Qual o seu nome? *" required/>
+									</div>
+									
+									<div class="form-group">
+										<input type="email" name="email" id="email" class="form-control input-lg" placeholder="Qual o seu email? *" required />
+									</div>
+									
+									<div class="form-group">
+										<input type="tel" name="telefone" id="telefone"class="form-control input-lg" placeholder="Seu telefone *" required />
+									</div>
+									
+								</div>
+								
+								<div class="col-md-6">
+									<textarea  class="form-control input-lg" placeholder="Sua Mensagem *" required></textarea>	
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-sm-6">
+									<button type="submit" class="btn btn-success btn-lg">Enviar Formulario</button>
+								</div>
+							</div>
+						</form>
+					</div>
+				</div>
+            </div>
+        </section> 
+        <!-- // Trabalhe Conosco -->
+      
+      
+      
+        <!-- Rodapé -->
+        <footer>
+            <div class="container">
+				<div class="row">
+					<div class="col-sm-10">
+						<a><strong>Endereço:</strong> Rua Botelho Magalhães, 280 - Cambeba</a>
+					</div>
+					
+					<div class="col-sm-2 text-rigth">
+                        <a><small>Desenvolvido por:</small><br/></a>
+                        <a><strong>Lucas Alves</strong></a>
+					</div>
+				</div>
+			</div>
+        </footer> 
+        <!-- //Rodapé -->
+    
+    
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/trab-conosco.js"></script>
+  </body>
+</html>
