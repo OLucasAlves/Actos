@@ -20,36 +20,69 @@ section{
     min-height: 100vh;  /*ocupar 100% de altura*/
     
 }
+
+/*Quem Somos*/
 section#quemsomos{
-    background: url(../imgs/fundo2.jpg);
+    background-color: #606062;
 }
 
-section#servicos{
-    background: url(../imgs/fundo-branco.jpg);
+section#quemsomos h4{
+    color: #000000;
 }
 
-section#portfolio{
-    background: url(../imgs/fundo2.jpg);
+section#quemsomos p{
+    color: #FFFFFF;
 }
 
+section#quemsomos li{
+    color: #FFFFFF;
+}
+
+.quem-somos{
+    background-color: white;
+}
+
+/* //Quem Somos*/
+
+/*Noticias*/
+section#noticias{
+    background-color: #606062;
+}
+
+section#notocias-branco{
+    background-color: white;
+}
+/* //Noticias*/
+
+/*Localização*/
 section#localizacao{
     background: url(../imgs/fundo-branco.jpg);
 }
+/* //Localização*/
 
+/*Trabalhe Conosco*/
 section#trabconosco{
-    background: url(../imgs/fundo2.jpg);
+    background-color: #606062;
 }
 
+#trab_conosco{
+    color: white;
+}
+/* //Trabalhe Conosco*/
+
+/*Rodapé*/
 footer{
 	padding-top: 30px;
 	padding-bottom: 30px;
-	background: url(../imgs/fundo.jpg);
+	background-color: white;
 	
 }
 
 footer a{
-    color: white;
+    color: #000000;
 }
+
+/* //Rodapé*/
 
 img.grayscale{ /*deixar imagem em scala de cinza*/
     filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type='\matrix\' values='\0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale");
@@ -77,6 +110,13 @@ img.menu{
     padding-bottom: 15px;
     background: url(../imgs/fundo-branco.jpg)
 }
+
+.divslider-cinza{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: #606062;
+}
+
 
 .slide_btn_portal{
     margin-top: 25px;
