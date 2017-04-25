@@ -17,7 +17,7 @@ body{
 }
 
 section{
-    padding-top: 10px;
+    padding-top: 15px;
     padding-bottom: 15px;
     min-height: 100vh;  /*ocupar 100% de altura*/
     
@@ -192,9 +192,15 @@ img.menu{
 }
 
 
+@media only screen and (max-width: 320px) {
+    min-height: 0vh;
+}
+
+@media only screen and (max-width: 768px) {
+    
 
 
-
+}
 
 
 
