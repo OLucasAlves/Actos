@@ -1,4 +1,6 @@
 
+
+
 *{
     font-family: 'Lato',sans-serif;
     font-weight: 300;
@@ -15,9 +17,14 @@ body{
 }
 
 section{
-    padding-top: 25px;
+    padding-top: 10px;
     padding-bottom: 15px;
     min-height: 100vh;  /*ocupar 100% de altura*/
+    
+}
+
+section#slides{
+    background-color: white;
     
 }
 
@@ -99,6 +106,9 @@ img.grayscale:hover{ /*Voltar acor normal ao passar o mouse por cima*/
     font-weight: 700;
 }
 
+.navbar-nav{
+    height: 50px;
+}
 img.menu{
 	
 	height:35px;
@@ -108,7 +118,9 @@ img.menu{
 .divslider{
     padding-top: 15px;
     padding-bottom: 15px;
-    background: url(../imgs/fundo-branco.jpg)
+    /*background: url(../imgs/fundo-branco.jpg);*/
+    width: 100%;
+    height: 530px;
 }
 
 .divslider-cinza{
