@@ -25,7 +25,8 @@ section{
 
 section#slides{
     background-color: white;
-    
+    margin-bottom: 0px;
+    height: 100%;
 }
 
 /*Quem Somos*/
@@ -116,11 +117,11 @@ img.menu{
 }
 
 .divslider{
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-top: 0px;
+    padding-bottom: 0px;
     /*background: url(../imgs/fundo-branco.jpg);*/
     width: 100%;
-    height: 530px;
+    height: 100%;
 }
 
 .divslider-cinza{
@@ -193,7 +194,9 @@ img.menu{
 
 
 @media only screen and (max-width: 320px) {
-    min-height: 0vh;
+    img.img-slider{
+        height: 50px;
+    }
 }
 
 @media only screen and (max-width: 768px) {
