@@ -9,6 +9,21 @@ body{
     padding-top: 50px;
     }
 
+.navbar-default {
+    background-color: white;
+    border-color: white;
+}
+.navbar-default .navbar-nav > li > a{
+    color:#cecece;
+    font-family: serif;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #006400;
+    transition-duration: 1.5s;
+}
+
 .grow:hover
 {
         -webkit-transform: scale(1.1);
@@ -31,7 +46,9 @@ section#slides{
 
 /*Quem Somos*/
 section#quemsomos{
-    background-color: #606062;
+    background: url(../imgs/servtop-bg1.jpg);
+    background-repeat: repeat-y;
+    background-size:auto;
 }
 
 section#quemsomos h4{
@@ -39,18 +56,32 @@ section#quemsomos h4{
 }
 
 section#quemsomos p{
-    color: #FFFFFF;
+    color: #000000;
 }
 
 section#quemsomos li{
-    color: #FFFFFF;
+    color: #000000;
 }
 
 .quem-somos{
     background-color: white;
 }
+.quem-somos-back{
+    background: url(../imgs/servtop-bg1.jpg);
+    height: 500px;
+    margin-top: 0px;
+}
+
 
 /* //Quem Somos*/
+
+
+/*Seriços*/
+section#servicos{
+    background: url(../imgs/site-background.jpg);
+}
+
+/* //Seriços*/
 
 /*Noticias*/
 section#noticias{
@@ -70,7 +101,12 @@ section#localizacao{
 
 /*Trabalhe Conosco*/
 section#trabconosco{
-    background-color: #606062;
+    background: url(../imgs/map-image.png);
+    background-color: #000000;
+}
+
+section#trabconosco h1{
+    color: white
 }
 
 #trab_conosco{
