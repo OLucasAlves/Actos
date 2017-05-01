@@ -46,8 +46,8 @@ section#slides{
 
 /*Quem Somos*/
 section#quemsomos{
-    background: url(../imgs/servtop-bg1.jpg);
-    background-repeat: repeat-y;
+    background: url(../imgs/teste3.png);
+    background-repeat: no-repeat;
     background-size:auto;
 }
 
@@ -63,14 +63,8 @@ section#quemsomos li{
     color: #000000;
 }
 
-.quem-somos{
-    background-color: white;
-}
-.quem-somos-back{
-    background: url(../imgs/servtop-bg1.jpg);
-    height: 500px;
-    margin-top: 0px;
-}
+
+
 
 
 /* //Quem Somos*/
@@ -159,9 +153,13 @@ img.menu{
     height: 100%;
 }
 
-img#img-slider {
-    height:600px;
+.carousel-inner > .item > img {
+    position: relative;
+    min-width: 100%;
+    height: 600px; /* Altura da imagem dentro do Carousel */
 }
+
+
 
 .divslider-cinza{
     padding-top: 15px;
@@ -233,14 +231,25 @@ img#img-slider {
 
 /*Media queries*/
 @media only screen and (max-width: 320px) {
-    img#img-slider{
-        height: 200px;    
+    
+    .divslider{
+        padding-top: 0px;
+        padding-bottom: 0px;
+        /*background: url(../imgs/fundo-branco.jpg);*/
+        width: 100%;
+        height: 100%;
+}
+    
+    .carousel-inner > .item > img {
+        height: 20px;
     }
 }
+
 @media only screen and (max-width: 360px) {
-    img#img-slider{
-        height: 250px;    
+    img#img-slider {
+        height:60px;
     }
+
 }
 
 @media only screen and (max-width: 768px) {
