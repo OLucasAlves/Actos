@@ -10,6 +10,10 @@
     
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/estilo.css" rel="stylesheet">
+    <link href="css/parceiro.css" rel="stylesheet">
+      
+    <link rel="stylesheet" type="text/css" href="./slick/slick.css">
+    <link rel="stylesheet" type="text/css" href="./slick/slick-theme.css"> 
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
@@ -22,7 +26,30 @@
         });                                     
        });
           
-    </script>    
+    </script>   
+      
+    <script>
+        $(window).scroll(function() { 
+        var scroll = $(window).scrollTop();
+
+        if (scroll > 500) {
+            
+            $('.navbar-nav').css('height','50px');
+            $('.navbar-default').css('background-color','black');
+            $('.navbar-default').css('border-color','black');
+            $('img.menu').css('height','40px');
+            
+            
+        } else {
+            $('.navbar-nav').css('height','65px');
+            $('.navbar-default').css('background-color','white');
+            $('img.menu').css('height','55px');
+            $('.navbar-default').css('border-color','white');
+            
+    }
+});  
+      
+    </script>  
   </head>
   <body data-spy="scroll" data-target=".menu-navegacao" data-offset="80">
         <!-- Menu da aplicação -->
@@ -50,7 +77,7 @@
                         </li>
                         
                         <li>
-                            <a  class="menu scroll" href="#noticias">Noticias</a>
+                            <a  class="menu scroll" href="#parceiros">Parceiros</a>
                         </li>
                         
                         <li>
@@ -71,11 +98,10 @@
             </div>    
         </nav>
         <!-- // Menu da aplicação -->
-      
+    
         <!-- Slider da aplicação -->
       
         <div id="slides" class="divslider">
-            
                 <div id="sliderprincipal" style="width:100%" class="carousel slide" data-ride="carousel" >
                 
                     <ol class="carousel-indicators">
@@ -107,26 +133,24 @@
                             <span class="glyphicon glyphicon-chevron-right" ></span>
                             <span class="sr-only" >Proximo</span>
                         </a> 
-                    </div>
-                  
+                    </div>    
         </div>
-      
         <!-- // Slider da aplicação -->
-        
+          
         <!-- Quem somos -->
         <section id="quemsomos" >
             <div class="container" class="scroll">
                 <div class="row">
                     <div class="col-xs-12 ">
                         <div class="page-header">
-                            <h1>Quem Somos</h1>
+                            <h1 style="color:white">Quem Somos</h1>
                         </div>
                         <div class="row">
                             <div class="col-sm-4 ">
                                 <div>
-                                    <h4>Missão</h4>
+                                    <h4 style="">Missão</h4>
                                     <div>
-                                        <p>Prestar Serviços para o segmento de administração condominial, com qualidade, utilizando ferramentas tecnológicas, visando a maior eficiência e celeridade na prestação do serviço.</p>
+                                        <p style="">Prestar Serviços para o segmento de administração condominial, com qualidade, utilizando ferramentas tecnológicas, visando a maior eficiência e celeridade na prestação do serviço.</p>
                                     </div>
                                 </div>
                             </div>
@@ -183,7 +207,7 @@
                 
                 <div class="row">
                    <div class=" col-sm-4 col-md-4 servicos_item">
-                        <div ><img src="imgs/zelador.jpg" class="img-responsive" style="height:150px;"></div> 
+                        <div id="serv-zel"></div> 
                            <h4>Zeladoria</h4>
                            <p>Profissionais uniformizados, passagens, alimentação;
                                Carga horária 44 (quarenta e quatro) horas semanais;
@@ -191,14 +215,16 @@
                    </div> 
                     
                    <div class=" col-sm-4 col-md-4 servicos_item">
-                      <div><img src="imgs/seguranca.png" class="img-responsive  "style="height:150px"></div>
+                      <div id="serv-seg"></div>
                          <h4>Portaria/Ronda Desarmada </h4>
                          <p>Carga Horária 12 x 36; Horário das 19:00hs. às 07:00hs. e 07:00hs às 19:00hs respectivamente; Profissionais         uniformizados, passagem, alimentação;
                          </p>    
                    </div> 
                     
                    <div class=" col-sm-4 col-md-4 servicos_item">
-                      <div><img src="imgs/actos_logo2.png" class="img-responsive " style="height:150px" >   </div>  
+                      <div style="height:50px"></div>
+                      <div><img src="imgs/actos_logo_usada.png" class="img-responsive " style="height:70px" >   </div> 
+                      <div style="height:30px"></div>
                         <h4>Gestão de Condominios</h4>
                         <p>Cobranças Extrajudicial e Judicial; Demonstrativos Financeiros; Previsões Orçamentárias; Assessoria                  Jurídica;Contábil; Departamento Pessoal;
                         </p>
@@ -218,28 +244,46 @@
         
         <!-- //Serviços -->
       
-        <!-- Noticias -->
-        <section id="noticias" >
-            <div class="container">
-                <div class="row">
-                    <div class="col-xs-12">
-                        <div class="page-header">
-                            <h1 class="cor-fonte">Noticias <small></small></h1>
-                        </div>
-                    </div>    
-                </div>
-                
-                
-                
-                <div class="row">
-                    <div class="col-xs-12 text-center">
-                        <a href="noticias.html" class="btn btn-default btn-lg">Clique aqui para mais noticias </a>
-                    </div>
-                </div>
-                
+        <!-- Parceiros -->
+       <div id="parceiros"  class="container">
+            <div class="col-xs-12">
+                <div class="page-header">
+                    <h1>Parceiros </h1>
+                </div> 
+            </div> 
+        </div>
+       
+        <section class="autoplay slider">    
+            <div>
+              <img src="http://placehold.it/350x300?text=1">
             </div>
-        </section>  
-        <!-- // Noticias -->
+            <div>
+              <img src="http://placehold.it/350x300?text=2">
+            </div>
+            <div>
+              <img src="http://placehold.it/350x300?text=3">
+            </div>
+            <div>
+              <img src="http://placehold.it/350x300?text=4">
+            </div>
+            <div>
+              <img src="http://placehold.it/350x300?text=5">
+            </div>
+            <div>
+              <img src="http://placehold.it/350x300?text=6">
+            </div>
+            <div>
+              <img src="http://placehold.it/350x300?text=7">
+            </div>
+            <div>
+              <img src="http://placehold.it/350x300?text=8">
+            </div>
+            <div>
+              <img src="http://placehold.it/350x300?text=9">
+            </div>
+        </section>
+           
+        <!-- // Parceiros -->
       
       
         <!-- Localização -->
@@ -328,9 +372,13 @@
 				</div>
 			</div>
         </footer> 
+      
+     
         <!-- //Rodapé -->
-    
-    
+       
+    <script src="js/parceiro.js" type="text/javascript"></script>
+    <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+    <script src="./slick/slick.js" type="text/javascript" charset="utf-8"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/trab-conosco.js"></script>
   </body>

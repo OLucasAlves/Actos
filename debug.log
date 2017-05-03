@@ -17,3 +17,6 @@
 [0404/155442.482:ERROR:file_io_win.cc(163)] CreateFile C:\Program Files (x86)\temp\settings.dat: Acesso negado. (0x5)
 [0404/155442.497:ERROR:registration_protocol_win.cc(84)] TransactNamedPipe: O pipe foi finalizado. (0x6D)
 [0404/155442.501:ERROR:file_io_win.cc(163)] CreateFile C:\Program Files (x86)\temp\settings.dat: Acesso negado. (0x5)
+[0502/152501.915:ERROR:crash_report_database_win.cc(563)] CreateDirectory C:\Program Files (x86)\Google\Chrome\reports: Acesso negado. (0x5)
+[0502/152501.918:ERROR:registration_protocol_win.cc(83)] TransactNamedPipe: O pipe foi finalizado. (0x6D)
+[0502/152501.919:ERROR:crash_report_database_win.cc(563)] CreateDirectory C:\Program Files (x86)\Google\Chrome\reports: Acesso negado. (0x5)

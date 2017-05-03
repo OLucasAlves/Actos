@@ -7,11 +7,15 @@
 }
 body{
     padding-top: 50px;
+    background-color: white;
     }
 
+
+
+/* Menu */
 .navbar-default {
     background-color: white;
-    border-color: white;
+    border-color: black;
 }
 .navbar-default .navbar-nav > li > a{
     color:#cecece;
@@ -24,6 +28,27 @@ body{
     transition-duration: 1.5s;
 }
 
+.navbar-brand{
+    font-weight: 700;
+}
+
+ul li a{
+    font-size: 18px;
+}
+
+.navbar-nav{
+    height: 65px;
+}
+img.menu{
+	height:55px;
+	margin-top:-10px;
+}
+
+menu_scroll{
+    
+}
+
+/* //Menu */
 .grow:hover
 {
         -webkit-transform: scale(1.1);
@@ -38,6 +63,8 @@ section{
     
 }
 
+
+
 section#slides{
     background-color: white;
     margin-bottom: 0px;
@@ -46,26 +73,22 @@ section#slides{
 
 /*Quem Somos*/
 section#quemsomos{
-    background: url(../imgs/teste3.png);
+    background: url(../imgs/main-road-1373497_1920.jpg);
     background-repeat: no-repeat;
     background-size:auto;
 }
 
 section#quemsomos h4{
-    color: #000000;
+    color: white;
 }
 
 section#quemsomos p{
-    color: #000000;
+    color: white;
 }
 
 section#quemsomos li{
-    color: #000000;
+    color: white;
 }
-
-
-
-
 
 /* //Quem Somos*/
 
@@ -75,21 +98,41 @@ section#servicos{
     background: url(../imgs/site-background.jpg);
 }
 
+div#serv-zel{
+    background: url(../imgs/zelador.jpg);
+    background-repeat: no-repeat;
+    background-position: center; 
+    height: 150px;
+}
+
+div#serv-seg{
+    background: url(../imgs/seguranca4.png);
+    background-repeat: no-repeat;
+    background-position: center; 
+    height: 150px;
+}
+
+
+
 /* //Seriços*/
 
-/*Noticias*/
-section#noticias{
-    background-color: #606062;
+/*Parceiros*/
+
+div#parceiros{
+    padding-top: 25px;
+    background-color:white;
 }
 
-section#notocias-branco{
+section.slider{
     background-color: white;
 }
-/* //Noticias*/
+
+
+/* //Parceiros*/
 
 /*Localização*/
 section#localizacao{
-    background: url(../imgs/fundo-branco.jpg);
+       background: url(../imgs/site-background.jpg);
 }
 /* //Localização*/
 
@@ -133,17 +176,6 @@ img.grayscale:hover{ /*Voltar acor normal ao passar o mouse por cima*/
     -webkit-filter: grayscale(0%);
 }
 
-.navbar-brand{
-    font-weight: 700;
-}
-
-.navbar-nav{
-    height: 50px;
-}
-img.menu{
-	height:35px;
-	margin-top:-10px;
-}
 
 .divslider{
     padding-top: 0px;
@@ -155,8 +187,9 @@ img.menu{
 
 .carousel-inner > .item > img {
     position: relative;
+    min-height: 100vh;  /*ocupar 100% de altura*/
     min-width: 100%;
-    height: 600px; /* Altura da imagem dentro do Carousel */
+    height: 780px; /* Altura da imagem dentro do Carousel */
 }
 
 
@@ -256,18 +289,45 @@ img.menu{
     img#img-slider{
         height: 550px;    
     }
+    
+    ul li a{
+        font-size: 16px;
+    }
+
 }
 
 @media only screen and (max-width: 800px) {
     img#img-slider{
         height: 550px;    
     }
+    
+    ul li a{
+        font-size: 16px;
+    }
+
+}
+
+
+@media only screen and (max-width: 800px) {
+    img#img-slider{
+        height: 550px;    
+    }
+    
+    ul li a{
+        font-size: 16px;
+    }
+
 }
 
 @media only screen and (max-width: 980px) {
     img#img-slider{
         height: 550px;    
     }
+    
+    ul li a{
+        font-size: 17px;
+    }
+
 }
 
 @media only screen and (max-width: 1280px) {
