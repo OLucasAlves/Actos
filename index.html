@@ -32,19 +32,28 @@
         $(window).scroll(function() { 
         var scroll = $(window).scrollTop();
 
-        if (scroll > 500) {
+        if (scroll > 100) {
             
-            $('.navbar-nav').css('height','50px');
+            $('.navbar-nav').css('height','60px');
+            $('.navbar-nav').css('transition-duration','1s');
+            
             $('.navbar-default').css('background-color','black');
             $('.navbar-default').css('border-color','black');
+            $('.navbar-default').css('transition-duration','1s');
             $('img.menu').css('height','40px');
+            $('img.menu').css('transition-duration','1s');
+            $('ul li a').css('font-size','14px');
+            $('ul li a').css('transition-duration','1s');
+
+            
             
             
         } else {
-            $('.navbar-nav').css('height','65px');
+            $('.navbar-nav').css('height','70px');
             $('.navbar-default').css('background-color','white');
             $('img.menu').css('height','55px');
             $('.navbar-default').css('border-color','white');
+            $('ul li a').css('font-size','16px');
             
     }
 });  
@@ -68,7 +77,7 @@
                     <ul class="nav navbar-nav navbar-right">
                         <li><a href="#page-top"></a></li>
                        
-                        <li>
+                        <li >
                             <a  class="menu scroll" href="#quemsomos">Quem Somos</a>
                         </li>
                         
