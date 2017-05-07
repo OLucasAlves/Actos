@@ -31,37 +31,51 @@
     <script>
         $(window).scroll(function() { 
         var scroll = $(window).scrollTop();
+        var tela = $(window).width();
         
         
-        
-        if (scroll > 100  ) {
+        if(tela > 360){
+            if (scroll > 100) {
             
-            $('.navbar-nav').css('height','60px');
-            $('.navbar-nav').css('transition-duration','1s');
+                $('.navbar-nav').css('height','60px');
+                $('.navbar-nav').css('transition-duration','1s');
+
+                $('.navbar-default').css('background-color','black');
+                $('.navbar-default').css('border-color','black');
+                $('.navbar-default').css('transition-duration','1s');
+
+
+                $('img.menu').css('height','40px');
+                $('img.menu').css('margin-top','-5px');
+                $('img.menu').css('transition-duration','1s'); 
+
+                //$('img.menu').removeClass('img.menu').addClass('img.menu-scroll');
+
+                $('ul li a').css('font-size','14px');
+                $('ul li a').css('transition-duration','1s');
+
+                $('.navbar-default .navbar-nav > li > a').css('color','white');
+                $('.navbar-default .navbar-nav > li > a').css('margin-top','5px');
+                $('.navbar-default .navbar-nav > li > a').css('transition-duration','1s');
             
-            $('.navbar-default').css('background-color','black');
-            $('.navbar-default').css('border-color','black');
-            $('.navbar-default').css('transition-duration','1s');
-            $('img.menu').css('height','40px');
-            $('img.menu').css('margin-top','-5px');
-            $('img.menu').css('transition-duration','1s');
-            $('ul li a').css('font-size','14px');
-            $('ul li a').css('transition-duration','1s');
-            $('.navbar-default .navbar-nav > li > a').css('color','white');
-            $('.navbar-default .navbar-nav > li > a').css('margin-top','5px');
-            $('.navbar-default .navbar-nav > li > a').css('transition-duration','1s');
+            }else {
+                $('.navbar-nav').css('height','65px');
+
+                $('.navbar-default').css('border-color','white');
+                $('.navbar-default').css('background-color','white');
+
+                $('img.menu').css('height','55px');
+                $('img.menu').css('margin-top','-10.5px');
+
+                $('ul li a').css('font-size','14px');
+
+                $('.navbar-default .navbar-nav > li > a').css('color','black');
+                $('.navbar-default .navbar-nav > li > a').css('margin-top','8px');
             
-        } else {
-            $('.navbar-nav').css('height','65px');
-            $('.navbar-default').css('background-color','white');
-            $('img.menu').css('height','55px');
-            $('img.menu').css('margin-top','-10.5px');
-            $('.navbar-default').css('border-color','white');
-            $('ul li a').css('font-size','14px');
-            $('.navbar-default .navbar-nav > li > a').css('color','black');
-            $('.navbar-default .navbar-nav > li > a').css('margin-top','10px');
+            }    
             
         }    
+            
         
             
         

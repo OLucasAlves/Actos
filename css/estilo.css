@@ -20,7 +20,7 @@ body{
 .navbar-default .navbar-nav > li > a{
     color:black;
     font-family: serif;
-    margin-top: 10px;
+    margin-top: 8px;
 }
 
 .navbar-default .navbar-nav > li > a:hover,
@@ -45,7 +45,12 @@ img.menu{
 	margin-top:-10.5px;
 }
 
-menu_scroll{
+img.menu-scroll{
+    height: 40px;
+    margin-top:-5px;
+    transition-duration:1s;
+}
+
     
 }
 
@@ -307,10 +312,7 @@ p.texto-slider {
 }
 
 @media only screen and (max-width: 360px) {
-    img#img-slider {
-        height:60px;
-    }
-    
+   
     img.menu{
 	   height:30px;
 	   margin-top:-5px;
