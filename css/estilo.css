@@ -18,13 +18,14 @@ body{
     border-color: black;
 }
 .navbar-default .navbar-nav > li > a{
-    color:#cecece;
+    color:black;
     font-family: serif;
+    margin-top: 10px;
 }
 
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-    color: #006400;
+    color: #0B6E45;
     transition-duration: 1.5s;
 }
 
@@ -33,7 +34,7 @@ body{
 }
 
 ul li a{
-    font-size: 16px;
+    font-size: 14px;
 }
 
 .navbar-nav{
@@ -41,7 +42,7 @@ ul li a{
 }
 img.menu{
 	height:55px;
-	margin-top:-10px;
+	margin-top:-10.5px;
 }
 
 menu_scroll{
@@ -176,7 +177,7 @@ img.grayscale:hover{ /*Voltar acor normal ao passar o mouse por cima*/
     -webkit-filter: grayscale(0%);
 }
 
-
+/*Slider*/
 .divslider{
     padding-top: 0px;
     padding-bottom: 0px;
@@ -204,6 +205,33 @@ img.grayscale:hover{ /*Voltar acor normal ao passar o mouse por cima*/
 .slide_btn_portal{
     margin-top: 25px;
 }
+
+.carousel-caption{
+    margin-top: 0px;
+}
+
+p.texto-slider{
+    font-size: 30pt;
+}
+
+p.texto-slider {
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+/* //slider */
 
 /*
 .servicos_item *{
@@ -282,6 +310,11 @@ img.grayscale:hover{ /*Voltar acor normal ao passar o mouse por cima*/
     img#img-slider {
         height:60px;
     }
+    
+    img.menu{
+	   height:30px;
+	   margin-top:-5px;
+}
 
 }
 
