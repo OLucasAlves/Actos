@@ -118,6 +118,33 @@ div#serv-seg{
     height: 150px;
 }
 
+div#actos{
+    background: url(../imgs/actos_logo_usada.png);
+    background-repeat: no-repeat;
+    background-position: center; 
+    height: 150px;
+}
+
+div#serv-seg:hover{
+	-webkit-transform: scale(1.1);
+    transition-duration: 1s;
+    background-color: white;
+}
+
+div#serv-zel:hover{
+    -webkit-transform: scale(1.1);
+    transition-duration: 1s;
+    background-color: white;
+}
+
+div#actos:hover{
+    -webkit-transform: scale(1.1);
+    border: 2px solid;
+    transition-duration: 1s;
+}
+
+
+
 
 
 /* //Seriços*/
@@ -195,28 +222,20 @@ img.grayscale:hover{ /*Voltar acor normal ao passar o mouse por cima*/
     position: relative;
     min-height: 100vh;  /*ocupar 100% de altura*/
     min-width: 100%;
-    height: 780px; /* Altura da imagem dentro do Carousel */
+    height: 650px; /* Altura da imagem dentro do Carousel */
 }
-
-
-
-.divslider-cinza{
-    padding-top: 15px;
-    padding-bottom: 15px;
-    background-color: #606062;
-}
-
 
 .slide_btn_portal{
     margin-top: 25px;
 }
 
 .carousel-caption{
-    margin-top: 0px;
+    top: 150px;
 }
 
+
 p.texto-slider{
-    font-size: 30pt;
+    font-size: 60pt;
 }
 
 p.texto-slider {
@@ -227,12 +246,14 @@ p.texto-slider {
 @keyframes slidein {
   from {
     margin-left: 100%;
-    width: 300%
+    width: 300%;
+    top: 500px;
   }
 
   to {
     margin-left: 0%;
     width: 100%;
+    top: 200px;  
   }
 }
 
@@ -298,16 +319,22 @@ p.texto-slider {
 /*Media queries*/
 @media only screen and (max-width: 320px) {
     
+    img.menu{
+	   height:30px;
+	   margin-top:-5px;
+    }  
+    
     .divslider{
-        padding-top: 0px;
-        padding-bottom: 0px;
-        /*background: url(../imgs/fundo-branco.jpg);*/
-        width: 100%;
-        height: 100%;
-}
- 
-    .carousel-inner > .item > img {
-        height: 20px;
+        
+        height: 350px%;
+    }
+  
+    .carousel-inner{
+        height: 350px;
+    }
+    
+    p.texto-slider{
+        font-size: 20pt;
     }
 }
 
@@ -316,8 +343,15 @@ p.texto-slider {
     img.menu{
 	   height:30px;
 	   margin-top:-5px;
-}
-
+    }
+    
+    .carousel-inner{
+        height: 350px;
+    }
+    
+    p.texto-slider{
+        font-size: 20pt;
+    }
 }
 
 @media only screen and (max-width: 768px) {
@@ -327,6 +361,10 @@ p.texto-slider {
     
     ul li a{
         font-size: 16px;
+    }
+    
+    .carousel-inner{
+        height: 600px;
     }
 
 }
@@ -338,6 +376,14 @@ p.texto-slider {
     
     ul li a{
         font-size: 16px;
+    }
+    
+    .carousel-inner{
+        height: 600px;
+    }
+    
+    .carousel-inner > .item > img {
+        height: 400px; /* Altura da imagem dentro do Carousel */
     }
 
 }
@@ -361,6 +407,14 @@ p.texto-slider {
     
     ul li a{
         font-size: 17px;
+    }
+    
+    .carousel-inner{
+        height: 600px;
+    }
+    
+    .carousel-inner > .item > img {
+        height: 400px; /* Altura da imagem dentro do Carousel */
     }
 
 }
