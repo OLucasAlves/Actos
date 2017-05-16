@@ -11,6 +11,11 @@ body.body-login{
      background: url(../imgs/main-road-1373497_1920.jpg);
 }
 
+body.body-visita{
+    min-height: 100vh;
+     background: url(../imgs/back-visita.jpg);
+    background-repeat: no-repeat;
+}
 
 
 /* Menu */

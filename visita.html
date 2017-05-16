@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>Solicite uma Visita</title>
+
+    
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/estilo.css" rel="stylesheet">
+
+    
+  </head>
+  <body  class="body-visita">
+    
+    <!-- Login --> 
+        
+    <div  class="container"><!-- .container -->
+        <div class="row">
+            <div id="panel-heading" class="panel-heading  text-center">
+                    <img class="menu" src="imgs/actos_logo.png" class="img-responsive" alt="Actos" style=""/>
+                </div>
+            <div class="col-xs-12">
+                <form name="frmContato" id="formContato" method="post"  action="http://grupoorganiza.com.br/cgi-sys/formmail.pl">
+                    <div class="row">
+				        <div class="col-md-6">
+				            <div class="form-group">
+				                <input type="text" name="nome" id="nome"class="form-control input-lg" placeholder="Qual o seu nome? *" required/>
+				            </div>
+									
+				            <div class="form-group">
+				                <input type="email" name="email" id="email" class="form-control input-lg" placeholder="Qual o seu email? *" required />
+				            </div>
+									
+				            <div class="form-group">
+				                <input type="tel" name="telefone" id="telefone"class="form-control input-lg" placeholder="Seu telefone *" required />
+				            </div>
+									
+				        </div>
+								
+				        <div class="col-md-6">
+				            <textarea  class="form-control input-lg" placeholder="Sua Mensagem *" required></textarea>	
+				        </div>
+				      </div>
+				      <div class="row">
+				        <div class="col-sm-6">
+				            <button type="submit" class="btn btn-success btn-lg">Enviar Formulario</button>
+                        </div>
+				      </div>
+				    </form>
+            </div>
+        
+        </div>            
+    </div>
+      
+      
+     <!-- //Login --> 
+       
+     
+        
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
+
+
