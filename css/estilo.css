@@ -147,19 +147,16 @@ div#actos{
 div#serv-seg:hover{
     background-color: white;
     box-shadow: 2px 2px  10px #333;
-    transition-duration: 1s;
 }
 
 div#serv-zel:hover{
     background-color: white;
     box-shadow: 2px 2px  10px #333;
-    transition-duration: 1s;
 }
 
 div#actos:hover{
     background-color: white;
     box-shadow: 2px 2px  10px #333;
-    transition-duration: 1s;
 }
 
 
@@ -186,8 +183,6 @@ div.parceiro {
 .img-parceiro{
     height:60px;
 }
-
-
 
 /* //Parceiros*/
 
