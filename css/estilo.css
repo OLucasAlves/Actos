@@ -2,15 +2,19 @@
     font-family: 'Lato',sans-serif;
     font-weight: 300;
 }
+
+/*Body index*/
 body{
     padding-top: 50px;
     background-color: white;
     }
 
+/*Body login*/
 body.body-login{
      background: url(../imgs/main-road-1373497_1920.jpg);
 }
 
+/*Body visita*/
 body.body-visita{
     min-height: 100vh;
      background: url(../imgs/back-visita.jpg);
@@ -82,7 +86,7 @@ img.menu-scroll{
 }
 
 section{
-    padding-top: 15px;
+    padding-top: 40px;
     padding-bottom: 15px;
     min-height: 100vh;  /*ocupar 100% de altura*/
     
