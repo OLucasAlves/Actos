@@ -6,7 +6,7 @@
 /*Body index*/
 body{
     padding-top: 50px;
-    background-color: white;
+    background-color: #CECECE;
     }
 
 /*Body login*/
@@ -173,11 +173,11 @@ div#actos:hover{
 
 div#parceiros{
     padding-top: 25px;
-    background-color:white; 
+    background-color:#CECECE; 
 }
 
 section.slider{
-    background-color: white;
+    background-color: #CECECE;
 }
 
 div.parceiro {
