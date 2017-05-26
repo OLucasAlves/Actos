@@ -200,6 +200,12 @@ section#localizacao{
 section#localizacao h1{
     color: white;
 }
+
+section#localizacao iframe{
+    width: 50%; 
+    height: 450px;
+}
+
 /* //Localização*/
 
 /*Trabalhe Conosco*/
@@ -365,6 +371,8 @@ p.texto-slider{
     p.texto-slider{
         font-size: 20pt;
     }
+    
+    
 }
 
 @media only screen and (max-width: 360px) {
@@ -389,8 +397,16 @@ p.texto-slider{
     
     /* //Slider*/
     
-   
+
 }
+
+/*Em telas menores que 580px o mapa ocupara 100% da tela */
+@media only screen and (max-width:720px ) {
+    section#localizacao iframe{
+        width: 100%; 
+    }
+}
+
 
 @media only screen and (max-width: 768px) {
     img#img-slider{
