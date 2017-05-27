@@ -359,10 +359,7 @@ p.texto-slider{
 /*Media queries*/
 @media only screen and (max-width: 320px) {
     
-    img.menu{
-	   height:30px;
-	   margin-top:-5px;
-    }  
+    
     
     .carousel-inner{
         height: 350px;
@@ -396,11 +393,23 @@ p.texto-slider{
     }
     
     /* //Slider*/
-    
 
 }
 
-/*Em telas menores que 580px o mapa ocupara 100% da tela */
+/* resolver problema da barra de rolagem no collapse menu */
+@media only screen and (max-width: 765px) {
+    .navbar-nav{
+        height: auto;
+    }
+    
+    img.menu{
+        height:30px;
+	    margin-top:-5px;
+    } 
+}
+
+
+/*Em telas menores que 720px o mapa ocupara 100% da tela */
 @media only screen and (max-width:720px ) {
     section#localizacao iframe{
         width: 100%; 
@@ -413,9 +422,7 @@ p.texto-slider{
         height: 550px;    
     }
     
-    ul li a{
-        font-size: 16px;
-    }
+  
     
     .carousel-inner{
         height: 600px;
@@ -429,9 +436,7 @@ p.texto-slider{
         height: 550px;    
     }
     
-    ul li a{
-        font-size: 16px;
-    }
+ 
     
     .carousel-inner{
         height: 600px;
@@ -449,9 +454,7 @@ p.texto-slider{
         height: 550px;    
     }
     
-    ul li a{
-        font-size: 16px;
-    }
+  
 
 }
 
@@ -461,7 +464,7 @@ p.texto-slider{
     }
     
     ul li a{
-        font-size: 17px;
+        font-size: 14px;
     }
     
     .carousel-inner{
