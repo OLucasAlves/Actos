@@ -172,7 +172,7 @@ div#actos:hover{
 /*Parceiros*/
 
 div#parceiros{
-    padding-top: 25px;
+    padding-top: 35px;
     background-color:#CECECE; 
 }
 
@@ -359,10 +359,12 @@ p.texto-slider{
 /*Media queries*/
 @media only screen and (max-width: 320px) {
     
-    
+     .carousel-inner > .item > img {
+        height: 600px; /* Altura da imagem dentro do Carousel */
+    }
     
     .carousel-inner{
-        height: 350px;
+        height: 600px;
     }
     
     p.texto-slider{
@@ -422,7 +424,6 @@ p.texto-slider{
         height: 550px;    
     }
     
-  
     
     .carousel-inner{
         height: 600px;
