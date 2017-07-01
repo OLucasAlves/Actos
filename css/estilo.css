@@ -146,7 +146,6 @@ div#serv-seg{
     top:30%
 }
 div#img-actos{
-    
     height: 250px;
 }
 
@@ -222,6 +221,24 @@ section#trabconosco h1{
 
 #trab_conosco{
     color: white;
+}
+
+.trab-info{
+    border: solid 1px #000000;
+    border-radius: 20px;
+    background: url(../imgs/background-cinza.jpg)
+}
+
+.trab-info img{
+    width: 65%;
+    height: 45%;
+    margin-left: 18%;
+}
+
+.trab-info a p{
+    color: black;
+    text-align: center;
+    font-size: 18pt;
 }
 /* //Trabalhe Conosco*/
 
