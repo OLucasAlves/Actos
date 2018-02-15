@@ -1,0 +1,2 @@
+[02-Feb-2018 13:06:39 UTC] PHP Deprecated:  preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead in /home/actosgestao/public_html/phpmailer/class.phpmailer.php on line 1736
+[07-Feb-2018 18:35:34 UTC] PHP Deprecated:  preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead in /home/actosgestao/public_html/phpmailer/class.phpmailer.php on line 1736
